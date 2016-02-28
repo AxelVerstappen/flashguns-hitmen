@@ -1,11 +1,13 @@
 $primary-background: #0A1432;
 $secondary-background: #304055;
 $tertiary-background: #d8d8d8;
-$active-color: #69A8DB;
+$link-font: #69A8DB;
+$primary-font: #FFFFFF;
 
 html, body
 {
 	font-family: "Open Sans";
+    font-size: 14px;
 	line-height: 1.3em;
     min-height: 100%;
     background-color: $secondary-background;
@@ -22,6 +24,11 @@ footer {
     background: url(/images/header.jpg) no-repeat center;
     background-size: cover;
     height: 200px;
+    
+    .logo {
+        height: 150px;
+        margin-top: 25px;
+    }
 }
 
 #navbar {
@@ -31,11 +38,12 @@ footer {
     .nav > li.active > a,
     .navbar-nav > .open > a{
         background: none;
-        color: $active-color;
+        color: $link-font;
     }
     
     .nav > li > a {
-        color: white;
+        color: $primary-font;
+        font-size: 1em;
         
         &:link,
         &:visited,
@@ -43,7 +51,7 @@ footer {
             
         }
         &:hover {
-            color: $active-color;
+            color: $link-font;
         }
     }
 }

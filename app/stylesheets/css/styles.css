@@ -1,5 +1,6 @@
 html, body {
   font-family: "Open Sans";
+  font-size: 14px;
   line-height: 1.3em;
   min-height: 100%;
   background-color: #304055; }
@@ -14,6 +15,9 @@ footer {
   background: url(/images/header.jpg) no-repeat center;
   background-size: cover;
   height: 200px; }
+  #header .logo {
+    height: 150px;
+    margin-top: 25px; }
 
 #navbar {
   text-transform: uppercase;
@@ -23,7 +27,8 @@ footer {
     background: none;
     color: #69A8DB; }
   #navbar .nav > li > a {
-    color: white; }
+    color: #FFFFFF;
+    font-size: 1em; }
     #navbar .nav > li > a:hover {
       color: #69A8DB; }
 

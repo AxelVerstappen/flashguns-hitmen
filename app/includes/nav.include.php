@@ -4,7 +4,15 @@
             <div class="col-xs-12" style="height:20px;"></div>
         </div>
     </div>
-    <div class="container-fluid" id="header"></div>
+    <div class="container-fluid" id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4">
+                    <img class="logo" src="/images/logo.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="navbar-header">
