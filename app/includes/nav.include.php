@@ -3,10 +3,9 @@
         <div class="row">
             <div class="col-xs-12" style="height:20px;"></div>
         </div>
-        <div class="row">
-            <div class="col-xs-12" id="header">  
-            </div>
-        </div>
+    </div>
+    <div class="container-fluid" id="header"></div>
+    <div class="container">
         <div class="row">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -15,7 +14,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Project name</a>
+                <!--<a class="navbar-brand" href="#">Project name</a>-->
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -34,9 +33,6 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="../navbar/">Default</a></li>
-                    <li><a href="../navbar-static-top/">Static top</a></li>
-                    <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
                 </ul>
             </div>
         </div>

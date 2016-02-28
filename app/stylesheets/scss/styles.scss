@@ -1,0 +1,51 @@
+$primary-background: #0A1432;
+$secondary-background: #304055;
+$tertiary-background: #d8d8d8;
+$active-color: #69A8DB;
+
+html, body
+{
+	font-family: "Open Sans";
+	line-height: 1.3em;
+    min-height: 100%;
+    background-color: $secondary-background;
+}
+
+nav.navbar.navbar-default, 
+footer {
+    background-color: $primary-background;
+    background-image: none;
+    border: none;
+}
+
+#header {
+    background: url(/images/header.jpg) no-repeat center;
+    background-size: cover;
+    height: 200px;
+}
+
+#navbar {
+    text-transform: uppercase;
+    
+    .nav > li.active > a,
+    .navbar-nav > .open > a{
+        background: none;
+    }
+    
+    .nav > li > a {
+        color: white;
+        
+        &:link,
+        &:visited,
+        &:active{
+            
+        }
+        &:hover {
+            
+        }
+    }
+}
+
+footer {
+    margin-top: 20px;
+}

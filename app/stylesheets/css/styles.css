@@ -1,0 +1,27 @@
+html, body {
+  font-family: "Open Sans";
+  line-height: 1.3em;
+  min-height: 100%;
+  background-color: #304055; }
+
+nav.navbar.navbar-default,
+footer {
+  background-color: #0A1432;
+  background-image: none;
+  border: none; }
+
+#header {
+  background: url(/images/header.jpg) no-repeat center;
+  background-size: cover;
+  height: 200px; }
+
+#navbar {
+  text-transform: uppercase; }
+  #navbar .nav > li.active > a,
+  #navbar .navbar-nav > .open > a {
+    background: none; }
+  #navbar .nav > li > a {
+    color: white; }
+
+footer {
+  margin-top: 20px; }
