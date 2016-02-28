@@ -16,12 +16,16 @@ footer {
   height: 200px; }
 
 #navbar {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-left: -15px; }
   #navbar .nav > li.active > a,
   #navbar .navbar-nav > .open > a {
-    background: none; }
+    background: none;
+    color: #69A8DB; }
   #navbar .nav > li > a {
     color: white; }
+    #navbar .nav > li > a:hover {
+      color: #69A8DB; }
 
 footer {
   margin-top: 20px; }

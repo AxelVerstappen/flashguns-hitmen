@@ -26,10 +26,12 @@ footer {
 
 #navbar {
     text-transform: uppercase;
+    margin-left: -15px;
     
     .nav > li.active > a,
     .navbar-nav > .open > a{
         background: none;
+        color: $active-color;
     }
     
     .nav > li > a {
@@ -41,7 +43,7 @@ footer {
             
         }
         &:hover {
-            
+            color: $active-color;
         }
     }
 }
