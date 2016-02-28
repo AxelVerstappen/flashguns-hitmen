@@ -20,11 +20,37 @@ footer {
     border: none;
 }
 
+.links {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    list-style: none;
+    padding: 5px 0;
+    margin: 0;
+    li {
+        flex: 1;
+        text-align: center;
+        margin: 0 5px;
+        display: inline-block;
+        img {
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            filter: gray;
+        }
+        &:hover {
+            img {
+                -webkit-filter: grayscale(0);
+                filter: grayscale(0);
+                filter: none;
+            }
+        }
+    }
+}
+
 #header {
     background: url(/images/header.jpg) no-repeat center;
     background-size: cover;
     height: 200px;
-    
     .logo {
         height: 150px;
         margin-top: 25px;
@@ -34,7 +60,6 @@ footer {
 #navbar {
     text-transform: uppercase;
     margin-left: -15px;
-    
     .nav > li.active > a,
     .navbar-nav > .open > a{
         background: none;
@@ -44,12 +69,6 @@ footer {
     .nav > li > a {
         color: $primary-font;
         font-size: 1em;
-        
-        &:link,
-        &:visited,
-        &:active{
-            
-        }
         &:hover {
             color: $link-font;
         }

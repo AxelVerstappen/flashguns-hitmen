@@ -11,6 +11,27 @@ footer {
   background-image: none;
   border: none; }
 
+.links {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  list-style: none;
+  padding: 5px 0;
+  margin: 0; }
+  .links li {
+    flex: 1;
+    text-align: center;
+    margin: 0 5px;
+    display: inline-block; }
+    .links li img {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+      filter: gray; }
+    .links li:hover img {
+      -webkit-filter: grayscale(0);
+      filter: grayscale(0);
+      filter: none; }
+
 #header {
   background: url(/images/header.jpg) no-repeat center;
   background-size: cover;
